@@ -1,0 +1,54 @@
+P, h1, h2, h3 {
+    color: #3B3131;
+}
+
+ul.horizontal li {
+    float: none;
+    display: inline-block;
+    width: 150px;
+    margin: 0px;
+    text-align: center;
+    list-style-type: none;
+}
+
+ul.horizontal {
+    padding: 0px;
+}
+
+div.content, img.content {
+    width: 500px;
+}
+
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+
+P {
+    font-size: 14pt;
+    font-family: 'Vollkorn';
+}
+
+P.weak {
+    font-size: 10pt;
+    font-family: 'Vollkorn';
+}
+
+h1 {
+    font-size: 30pt;
+    font-family: 'Vollkorn', cursive;
+}
+
+h2 {
+    font-size: 24pt;
+    font-family: 'Vollkorn', cursive;
+}
+
+h3 {
+    font-size: 18pt;
+    font-family: 'Vollkorn', cursive;
+}
+
+body {
+        margin: 30px;
+        background-image: url('parch.jpg');
+        background-repeat: repeat;
+}
