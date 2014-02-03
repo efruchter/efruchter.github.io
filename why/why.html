@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<title>why</title>
+		<link href='http://fonts.googleapis.com/css?family=The+Girl+Next+Door' rel='stylesheet' type='text/css'>
+		<link href="why.css" rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<script>
+			var n = 100;
+			var n1 = Math.floor((Math.random()*n)+1);
+			document.write("<p>");
+			document.write('..., ');
+			for (var i = 0; i <= n; i++) {
+				if (i == n1 - 1)
+					document.write(i + 1);
+				else if (i == n1)
+					document.write(i - 1);
+				else
+					document.write(i);
+				if (i < n)
+					document.write(', ');
+				if (i > 5 && i != n && i % 10 == 0)
+					document.write('<br>');
+			}
+			document.write(', ...');
+			document.write('</p>');
+ 		</script>
+	</body>
+</html>
