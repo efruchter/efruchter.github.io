@@ -5,8 +5,8 @@ $(document).ready(function(){
   <canvas class="birdcanvas" width="500" height="100"></canvas>\
   <ul class="horizontal">\
   <li class="titles" id="aboutTitle"><a href="index.html"><h3>About</h3></a></li>\
-  <li class="titles" id="researchTitle"><a href="research.html"><h3>Research</h3></a></li>\
   <li class="titles" id="projectsTitle"><a href="projects.html"><h3>Projects</h3></a></li>\
+  <li class="titles" id="researchTitle"><a href="research.html"><h3>Research</h3></a></li>\
   <li class="titles" id="contactTitle"><a href="contact.html"><h3>Contact</h3></a></li>\
   </ul>\
   </center>';
