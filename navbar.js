@@ -4,7 +4,7 @@ $(document).ready(function(){
   <h1>Eric Fruchter</h1>\
   <canvas class="birdcanvas" width="500" height="100"></canvas>\
   <ul class="horizontal">\
-  <li class="titles" id="aboutTitle"><a href="index.html"><h3>About Me</h3></a></li>\
+  <li class="titles" id="aboutTitle"><a href="index.html"><h3>About</h3></a></li>\
   <li class="titles" id="professionalTitle"><a href="professional.html"><h3>Professional</h3></a></li>\
   <li class="titles" id="hobbyTitle"><a href="hobby.html"><h3>Hobby</h3></a></li>\
   <li class="titles" id="researchTitle"><a href="research.html"><h3>Research</h3></a></li>\
