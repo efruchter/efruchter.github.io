@@ -34,7 +34,7 @@ P.weak {
 
 h1 {
     font-size: 30pt;
-    font-family: 'Vollkorn', cursive;
+    font-family: 'Vollkorn', cursive, Segoe UI Symbol;
 }
 
 h2 {
@@ -50,5 +50,19 @@ h3 {
 body {
         margin: 30px;
         background-repeat: repeat;
-	background-color: #dadadc;
+        background-color: #dadadc;
+}
+
+hr {
+
+    padding: 0;
+
+    border: none;
+
+    border-top: medium double #929293;
+
+    color: #929293;
+
+    text-align: center;
+
 }

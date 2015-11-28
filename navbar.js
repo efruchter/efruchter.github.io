@@ -4,12 +4,12 @@ $(document).ready(function(){
   <h1>Eric Fruchter</h1>\
   <canvas class="birdcanvas" width="500" height="100"></canvas>\
   <ul class="horizontal">\
-  <li class="titles" id="aboutTitle"><a href="index.html"><h3>About</h3></a></li>\
+  <li class="titles" id="aboutTitle"><a href="index.html"><h3>About Me</h3></a></li>\
   <li class="titles" id="professionalTitle"><a href="professional.html"><h3>Professional</h3></a></li>\
   <li class="titles" id="hobbyTitle"><a href="hobby.html"><h3>Hobby</h3></a></li>\
   <li class="titles" id="researchTitle"><a href="research.html"><h3>Research</h3></a></li>\
-  <li class="titles" id="contactTitle"><a href="contact.html"><h3>Contact</h3></a></li>\
   </ul>\
+  <br>\
   </center>';
 
   $('#navbar').html(navs);
@@ -26,8 +26,4 @@ $(document).ready(function(){
   $(".titles").fadeTo('slow', .6);
   $("div.content").hide();
   $("div.content").fadeTo('slow', 1);
-
-  /*$("canvas").each(function(index, value) { 
-    drawBirds(this, true, "#3B3131");
-  });*/
 });
