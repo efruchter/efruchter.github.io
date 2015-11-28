@@ -9,7 +9,6 @@ $(document).ready(function(){
   <li class="titles" id="hobbyTitle"><a href="hobby.html"><h3>Hobby</h3></a></li>\
   <li class="titles" id="researchTitle"><a href="research.html"><h3>Research</h3></a></li>\
   </ul>\
-  <br>\
   </center>';
 
   $('#navbar').html(navs);
