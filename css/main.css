@@ -1,22 +1,18 @@
 P, h1, h2, h3 {
     color: #3B3131;
-}
-
-ul.horizontal li {
-    float: none;
-    display: inline-block;
-    width: 150px;
-    margin: 0px;
-    text-align: center;
-    list-style-type: none;
+    width:70%;
 }
 
 ul.horizontal {
     padding: 0px;
 }
 
-div.content, img.content {
-    width: 500px;
+div, img {
+    width: 50%;
+}
+
+hr {
+    width: 70%;
 }
 
 img.kazoo {
@@ -32,27 +28,22 @@ a:visited {text-decoration:none;}
 
 P {
     font-size: 14pt;
-    font-family: 'Vollkorn';
 }
 
 P.weak {
     font-size: 10pt;
-    font-family: 'Vollkorn';
 }
 
 h1 {
     font-size: 50pt;
-    font-family: 'Vollkorn', bold, Segoe UI Symbol;
 }
 
 h2 {
     font-size: 24pt;
-    font-family: 'Vollkorn', cursive;
 }
 
 h3 {
     font-size: 18pt;
-    font-family: 'Vollkorn', cursive;
 }
 
 body {
