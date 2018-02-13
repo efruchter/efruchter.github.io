@@ -1,67 +1,25 @@
 P, h1, h2, h3 {
     color: #3B3131;
-    width:70%;
+    width: 500px;
 }
 
-ul.horizontal {
-    padding: 0px;
+img {
+    width: 500px;
 }
 
-div, img {
-    width: 50%;
+img.small {
+    width: 300px;
 }
 
 hr {
-    width: 70%;
-}
-
-img.kazoo {
-    width: 256px;
-	text-align: center;
-	margin-left: auto;
-    margin-right: auto;
-}
-
-
-a:link {text-decoration:none;}
-a:visited {text-decoration:none;}
-
-P {
-    font-size: 14pt;
-}
-
-P.weak {
-    font-size: 10pt;
-}
-
-h1 {
-    font-size: 50pt;
-}
-
-h2 {
-    font-size: 24pt;
-}
-
-h3 {
-    font-size: 18pt;
+    width: 500px;
 }
 
 body {
-        margin: 30px;
-        background-repeat: repeat;
+        margin: 10px;
         background-color: #dadadc;
 }
 
 hr {
-
-    padding: 0;
-
-    border: none;
-
-    border-top: medium double #929293;
-
-    color: #929293;
-
     text-align: center;
-
 }
